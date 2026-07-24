@@ -89,6 +89,7 @@ See:
 - [Research results](RESULTS.md)
 - [Security and disclosure policy](SECURITY.md)
 - [Sanitized decision-record example](decision-record.example.json)
+- [Run the source-free portfolio build](RUN_IT_YOURSELF.md)
 
 ## Skills demonstrated
 
