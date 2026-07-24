@@ -1,0 +1,32 @@
+{
+  "record_type": "strategy_decision_example",
+  "timestamp": "2030-01-01T12:00:00.000Z",
+  "market_id": "synthetic-five-minute-market",
+  "direction": "Up",
+  "reference_price": 65010.25,
+  "market_threshold": 65000.0,
+  "atr_5s": 4.2,
+  "impulse_5s": 7.1,
+  "impulse_atr_ratio": 1.69,
+  "pre_impulse_range_30s": 8.4,
+  "compression_atr_ratio": 2.0,
+  "market_ask": 0.54,
+  "model_probability": 0.64,
+  "edge_after_fee": 0.082,
+  "visible_quantity": 250.0,
+  "requested_budget": 10.0,
+  "execution_delay_ms": 500,
+  "signal_ttl_ms": 1500,
+  "gates": {
+    "atr_ready": true,
+    "compression": true,
+    "impulse": true,
+    "balanced_market_price": true,
+    "probability": true,
+    "edge": true,
+    "depth": true,
+    "fresh_signal": true
+  },
+  "result": "paper_order_queued"
+}
+

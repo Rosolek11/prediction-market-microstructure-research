@@ -84,11 +84,11 @@ pre-impulse compression indicator.
 
 See:
 
-- [Architecture](docs/ARCHITECTURE.md)
-- [Methodology](docs/METHODOLOGY.md)
-- [Research results](docs/RESULTS.md)
-- [Security and disclosure policy](docs/SECURITY.md)
-- [Sanitized decision-record example](samples/decision-record.example.json)
+- [Architecture](ARCHITECTURE.md)
+- [Methodology](METHODOLOGY.md)
+- [Research results](RESULTS.md)
+- [Security and disclosure policy](SECURITY.md)
+- [Sanitized decision-record example](decision-record.example.json)
 
 ## Skills demonstrated
 
@@ -101,6 +101,3 @@ microstructure` · `time-series analysis` · `paper trading` · `observability` 
 Historical performance from a small in-sample dataset does not establish
 future profitability. Official market resolution, out-of-sample testing, and
 walk-forward evaluation are required before drawing stronger conclusions.
-
-# prediction-market-microstructure-research
-Portfolio case study: low-latency market data, volatility modelling, paper execution and post-trade analytics in Rust.

@@ -1,0 +1,14 @@
+# No operational or generated material should be committed.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.log
+*.jsonl
+*.jsonl.gz
+target/
+data/
+secrets/
+deployment/
+infrastructure/
